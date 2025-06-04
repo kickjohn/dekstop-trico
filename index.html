@@ -10,15 +10,12 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>TRICO</h1>
-        </div>
         
         <div class="main-content">
             <div class="animation-container">
                 <div id="neutral" class="lottie-animation active"></div>
                 <div id="sad" class="lottie-animation"></div>
-                <div id="listening" class="lottie-animation"></div> 
+                <div id="listening" class="lottie-animation"></div>
                 <div id="blink" class="lottie-animation"></div>
                 <div id="happy" class="lottie-animation"></div>
                 <div id="tired" class="lottie-animation"></div>
@@ -37,13 +34,13 @@
                         <div class="status-text" id="status-text">Siap mendengarkan</div>
                     </div>
                     
-                    <div class="waveform-container" style="display: none;">
+                    <div class="waveform-container">
                         <canvas id="waveform"></canvas>
                     </div>
                     
                     <div class="button-container" style="display: none;">
-                        <button id="start-btn">Mulai Bicara</button>
-                        <button id="text-mode-btn">Mode Teks</button>
+                        <button id="start-btn">Mulai Bicara (Space)</button>
+                        <button id="text-mode-btn">Mode Teks (F2)</button>
                         <button id="settings-btn">Pengaturan</button>
                     </div>
                     
@@ -55,6 +52,6 @@
             </div>
         </div>
     </div>
-    <script src="ai.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
